@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            var dat = {
+                LoginID: "vk032017",
+                Password: "Admin@123"
+            };
+
+            $.ajax({
+                type: "POST",
+              
+                url: "/api/login",
+                contentType:'application/json',
+                data: JSON.stringify(dat),
+                dataType: "json",
+                success: function (response) {
+                    // BindTable(JSON.parse(response.d));
+                    alert(response);
+                },
+                failure: function (msg) {
+                    alert(msg);
+                }
+            });
+
+
+        });
+
+
+
+    </script>
+</body>
+</html>

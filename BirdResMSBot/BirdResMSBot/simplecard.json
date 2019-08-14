@@ -1,0 +1,124 @@
+﻿{
+  "type": "AdaptiveCard",
+  "width": "stretch",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Air Asia | A1-203"
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/I5.png?v=3",
+              "size": "Small"
+            }
+          ]
+
+        },
+        {
+          "type": "Column",
+          "items": [
+
+            {
+              "type": "TextBlock",
+              "text": "22:53",
+              "size": "Large",
+              "weight": "bolder"
+            },
+
+            {
+              "type": "TextBlock",
+              "text": "New Delhi",
+              "size": "Small"
+            }
+          ]
+
+        },
+        {
+          "type": "Column",
+          "spacing": "medium",
+          "items": [
+
+            {
+              "type": "TextBlock",
+              "text": "2 hrs 40 minuts"
+
+
+            },
+            {
+              "type": "Image",
+              "url": "http://203.89.132.9/ChatBot/flight%20icon.svg",
+              "size": "Medium"
+
+
+            },
+            {
+              "type": "TextBlock",
+              "text": "non stop",
+              "horizontalAlignment": "center",
+              "size": "Small"
+            }
+          ]
+
+        },
+        {
+          "type": "Column",
+          "spacing": "medium",
+          "items": [
+
+            {
+              "type": "TextBlock",
+              "text": "00:21",
+              "size": "Large",
+              "weight": "bolder"
+            },
+
+            {
+              "type": "TextBlock",
+              "text": "Banglore",
+              "size": "Small"
+            }
+          ]
+
+        },
+        {
+          "type": "Column",
+          "spacing": "medium",
+          "width": "stretch",
+          "items": [
+
+            {
+              "type": "TextBlock",
+              "text": "₹ 5024",
+              "color": "default",
+              "size": "Large",
+              "weight": "bolder"
+
+            }
+
+
+          ]
+
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
